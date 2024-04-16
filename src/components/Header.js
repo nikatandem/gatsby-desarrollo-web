@@ -7,7 +7,7 @@ import "../styles.css"
 const Header = () => {
   return (
     <header>
-      <nav>
+      <nav className="menu-container">
         <ul>
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/servicios">Servicios</Link></li>

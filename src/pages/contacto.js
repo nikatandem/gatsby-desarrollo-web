@@ -4,10 +4,11 @@ import "../styles.css"
 const Contacto = () => {
   return (
     <Layout>
-    <div style={{ textAlign: "center" }}>
-      <h1>Contacta con Innovation Co</h1>
-      <p>¡Estamos encantados de escucharte!</p>
-      <p>Para cualquier pregunta, comentario o solicitud de servicio, no dudes en ponerte en contacto con nosotros a través de los siguientes medios:</p>
+      <section style={sectionStyles}>
+    <div style={ContainerStyles}>
+      <h1 style={titleStyles}>Contacta con Innovation Co</h1>
+      <p style={paragraphStyles}>¡Estamos encantados de escucharte!</p>
+      <p style={paragraphStyles}>Para cualquier pregunta, comentario o solicitud de servicio, no dudes en ponerte en contacto con nosotros a través de los siguientes medios:</p>
       <ul style={{ listStyle: "none", padding: 0 }}>
         <li>
           <strong>Teléfono:</strong> +123 456 789
@@ -21,8 +22,35 @@ const Contacto = () => {
       </ul>
       <p>¡Esperamos saber de ti pronto!</p>
     </div>
+    </section>
     </Layout>
   )
 }
+const sectionStyles = {
+  textAlign: "center",
+  padding: "50px",
+}
+
+const titleStyles = {
+  fontSize: "2.5rem",
+  fontWeight: "bold",
+  marginBottom: "30px",
+}
+
+const subtitleStyles = {
+  fontSize: "1.8rem",
+  fontWeight: "bold",
+  marginBottom: "20px",
+}
+
+const paragraphStyles = {
+  fontSize: "1.2rem",
+  lineHeight: "1.6",
+}
+
+const ContainerStyles = {
+  marginBottom: "40px",
+}
+
 
 export default Contacto

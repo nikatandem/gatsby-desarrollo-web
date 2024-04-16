@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
   color: #000; /* Texto en negro */
   background-color: #fff; /* Fondo blanco */
+  margin-inline: 2px;
 }
 
 a {
@@ -21,7 +22,7 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color: #000; /* Títulos en negro */
   text-decoration: underline;
 }
@@ -67,11 +68,11 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-.navbar {
-  background-color: #333;
+.menu-container {
+  background-color: #333; /* Fondo negro */
 }
 
-.nav-menu {
+.menu-container ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -79,20 +80,19 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.nav-menu li {
-  margin-right: 20px; /* Espaciado entre elementos del menú */
+.menu-container ul li {
+  margin-right: 20px; /* Añade espacio entre los elementos */
 }
 
-.nav-menu li:last-child {
+.menu-container ul li:last-child {
   margin-right: 0; /* Elimina el margen derecho del último elemento del menú */
 }
 
-
-.nav-menu li a {
-  color: #fff;
+.menu-container ul li a {
+  color: #fff; /* Letras blancas */
   text-decoration: none;
 }
 
-.nav-menu li a:hover {
+.menu-container ul li a:hover {
   text-decoration: underline;
 }
