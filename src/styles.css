@@ -1,0 +1,98 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos corporativos */
+body {
+  font-family: Arial, sans-serif;
+  color: #000; /* Texto en negro */
+  background-color: #fff; /* Fondo blanco */
+}
+
+a {
+  color: #c00; /* Enlaces en rojo */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000; /* Títulos en negro */
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #900;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+.nav-menu li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento del menú */
+}
+
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline;
+}
