@@ -1,5 +1,3 @@
-// Header.js
-
 import React from "react"
 import { Link } from "gatsby"
 import "../styles.css"
